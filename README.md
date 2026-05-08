@@ -37,7 +37,7 @@ Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
 Si el archivo ingresado no cumple con estos parametros no se leeran los datos y se retornará NULL
 
 -A la hora de entrar a la gestión de watchlist, el menú le dira que ingrese una opción válida, simplemente presione enter y podrá
-continuar con la gestión de esta. Y a la hora de salir de la gestión, debera presionar dos veces enter para volver al menú principal, no afecta en nada la funcionamiento general del programa, pero igual puede ser un poco molesto.
+continuar con la gestión de esta. Y a la hora de salir de la gestión, debera presionar dos veces enter para volver al menú principal, no afecta en nada al funcionamiento general del programa, pero igual puede ser un poco molesto.
 
 ## Ejemplo de uso
 
@@ -61,8 +61,6 @@ Ingrese genero: Drama
 
 ID: tt0068646 | Titulo: The Godfather | Director: Francis Ford Coppola | Genero: Crime,Drama | Anio: 1972 | Rating: 9.2
 
-----------------------
-
 ...(se imprimen las demas peliculas)
 
 ### Buscar por director
@@ -73,8 +71,6 @@ Ingrese director: Michael Curtiz
 
 ID: tt0034583 | Titulo: Casablanca | Director: Michael Curtiz | Genero: Drama,Romance,War | Anio: 1942 | Rating: 8.5
 
-----------------------
-
 ...(se imprimen las demas peliculas)
 
 ### Buscar por decada
@@ -84,8 +80,6 @@ Opcion seleccionada: 4)Buscar por decada
 Ingrese anio: 1990
 
 ID: tt0110912 | Titulo: Pulp Fiction | Director: Quentin Tarantino | Genero: Crime,Drama | Anio: 1994 | Rating: 8.9
-
-----------------------
 
 ...(se imprimen las demas peliculas)
 
@@ -98,8 +92,6 @@ Genero: Western
 Anio: 1960
 
 ID: tt0064116 | Titulo: C'era una volta il West | Director: Sergio Leone | Genero: Western | Anio: 1968 | Rating: 8.5
-
-----------------------
 
 ...(se imprimen las demas peliculas)
 
@@ -125,18 +117,22 @@ Ingrese su opcion:
 
 ### (dentro de gestionar mi watchlist) Agregar Pelicula
 
-Opcion seleccionada: 2)Eliminar Categoria 
+Opcion seleccionada: 1)Agregar Pelicula 
 
-Categoria a eliminar: Casa
+Ingrese ID: tt0064116
 
-### (dentro de gestionar mi watchlist) Eliminar Pelicula
-
-Opcion seleccionada: 2)Eliminar Categoria 
-
-Categoria a eliminar: Casa
+Pelicula agregada correctamente!
 
 ### (dentro de gestionar mi watchlist) Mostrar Watchlist
 
-Opcion seleccionada: 2)Eliminar Categoria 
+Opcion seleccionada: 3)Mostrar Watchlist
 
-Categoria a eliminar: Casa
+ID: tt0064116 | Titulo: C'era una volta il West | Director: Sergio Leone | Genero: Western | Anio: 1968 | Rating: 8.5
+
+### (dentro de gestionar mi watchlist) Eliminar Pelicula
+
+Opcion seleccionada: 2)Eliminar Pelicula 
+
+Ingrese ID de la pelicula a eliminar: tt0064116
+
+Pelicula eliminada correctamente
