@@ -7,6 +7,7 @@ Este repositorio contiene un programa de planificador dinamico de tareas(Smart T
 ## Cómo compilar y ejecutar el programa
 
 1-Para poder compilar y ejecutar el programa primero debera traspasar el codigo a Visual Studio code(si no lo tiene, puede instalarlo de manera gratuita desde google) o descomprimir el zip y despues abrir con Visual Studio Code el archivo con los codigos.
+
 2-Luego, debe tener instalada las extensiones de Visual Studio Code C/C++ Extension Pack y C/C++ Compile Run(estas se instalan desde la seccion Extensions desde el mismo Visual Studio Code), además del compilador MinGW, esta se puede descargar desde google de manera gratuita.
 
 Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
