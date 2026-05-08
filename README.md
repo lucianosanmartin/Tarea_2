@@ -23,15 +23,10 @@ Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
 ## Funcionalidades
 
 La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo parametros que el del archivo de ejemplo "Top1500.csv", estos son:
-
 -Const
-
 -Title
-
 -Directors
-
 -Genres
-
 -Year
 
 ## Ejemplo de uso
