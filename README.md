@@ -36,8 +36,7 @@ Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
 
 Si el archivo ingresado no cumple con estos parametros no se leeran los datos y se retornará NULL
 
--A la hora de entrar a la gestión de watchlist, el menú le dira que ingrese una opción válida, simplemente presione enter y podrá
-continuar con la gestión de esta. Y a la hora de salir de la gestión, debera presionar dos veces enter para volver al menú principal, no afecta en nada al funcionamiento general del programa, pero igual puede ser un poco molesto.
+-A la hora de entrar a la gestión de watchlist, el menú de la gestión le dira que ingrese una opción válida, simplemente presione enter y podrá continuar con la gestión de esta. Y a la hora de salir de la gestión, debera presionar dos veces enter para volver al menú principal, no afecta en nada al funcionamiento general del programa, pero igual puede ser un poco molesto.
 
 ## Ejemplo de uso
 
