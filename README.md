@@ -34,17 +34,21 @@ La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo par
 
 -Year
 
+Si el archivo ingresado no cumple con estos parametros no se leeran los datos y se retornará NULL
+
 ## Ejemplo de uso
 
-Al inicio se le mostrará un menú el cual le mostrara todas las opciones disponobles, para elegir una simplemente debe presionar el número deseado, y seguido, presionar la tecla Enter.
+Al inicio se le mostrará un menú el cual le mostrara todas las opciones disponibles, para elegir una simplemente debe presionar el número deseado, y seguido, presionar la tecla Enter.
 
-### Agregar nueva categoría
+### Cargar Pelicula
 
-Opcion seleccionada: 1)Nueva Categoria 
+Opcion seleccionada: 1)Cargar Pelicula
 
-Nombre de la nueva categoria: Casa
+Nombre del archivo csv/: Top1500
 
-Categoria anadida exitosamente
+Peliculas cargadas correctamente!
+
+Peliculas cargadas: 1500
 
 ### Mostrar categorías
 
