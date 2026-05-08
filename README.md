@@ -40,7 +40,7 @@ Si el archivo ingresado no cumple con estos parametros no se leeran los datos y 
 
 ## Ejemplo de uso
 
-Al inicio se le mostrará un menú el cual le mostrara todas las opciones disponibles, para elegir una simplemente debe presionar el número deseado, y seguido, presionar la tecla Enter.
+Al inicio se le mostrará un menú el cual le mostrará todas las opciones disponibles, para elegir una simplemente debe presionar el número deseado, y seguido, presionar la tecla Enter.
 
 ### Cargar Peliculas
 
