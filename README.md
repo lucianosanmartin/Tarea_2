@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene un programa de planificador dinamico de tareas(Smart TODO), este permite al usuario registrar tareas pendientes clasificandolas por categorías(casa, oficina, etc.) y guardandolas en base a la hora en la que fueron ingresados, además trae funciones para borrar categorías, mostrar todas las categorías registradas, visualizar todas las tareas pendientes, entre otros. La finalidad de este programa, es ser una herramienta para que las personas puedan organizar los pendientes que tenien durante el dia.
+Este repositorio contiene un programa StreamFinder, este permite cargar un archivo CSV con cantidades masivas de datos sobre peliculas y organizar la informacion en distintos arboles binarios para poder facilitar la busqueda de peliculas en base a sus géneros, directores, decada de estreno y su ID, además, cuenta con una funcion para crear una watchlist en la que se puede agregar y eliminar peliculas y  mostrar todas las peliculas que esten guardadas en esta. La finalidad del programa es poder buscar facilmente ciertas peliculas entre grandes cantidades de datos para ser anexadas en una lista de pendientes. 
 
 ## Cómo compilar y ejecutar el programa
 
@@ -18,9 +18,19 @@ Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
 
 3-Ya una vez tenga instalada todo, simplemente debe presionar F6 o Fn+F6, desde VSCode, y el programa se compilara y ejecutara automaticamente desde una terminal en esta misma aplicacion, otra opcion es presionar F8 o Fn+F8, esto abrira una terminal desde el mismo dispositivo que compilara y ejecutara el programa.
 
+4-Recuerde que debe tener algun archivo CSV para poder usar el programa en su totalidad, además de verificar que la ruta del archivo este conectada con la del .exe, sino no se  podrá abrir el archivo y no se podran cargar los datos.
+
 ## Funcionalidades
 
-Todas funcionan perfectamente.
+La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo parametros que el del archivo de ejemplo "Top1500.csv", estos son:
+
+-Const
+
+-Title
+
+-Year
+
+-
 
 ## Ejemplo de uso
 
