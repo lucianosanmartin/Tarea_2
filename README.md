@@ -28,9 +28,11 @@ La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo par
 
 -Title
 
--Year
+-Directors
 
--
+-Genres
+
+-Year
 
 ## Ejemplo de uso
 
