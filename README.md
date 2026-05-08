@@ -22,7 +22,7 @@ Links a videos para instalar Visual Studio Code y MinGW, respectivamente:
 
 ## Funcionalidades
 
-La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo parametros que el del archivo de ejemplo "Top1500.csv", estos son:
+-La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo parametros que el del archivo de ejemplo "Top1500.csv", estos son:
 
 -Const
 
@@ -36,59 +36,106 @@ La funcion Cargar Peliculas solo recibe archivos CSV que contengan los mismo par
 
 Si el archivo ingresado no cumple con estos parametros no se leeran los datos y se retornará NULL
 
+-A la hora de entrar a la gestión de watchlist, el menú le dira que ingrese una opción válida, simplemente presione enter y podrá
+continuar con la gestión de esta. Y a la hora de salir de la gestión, debera presionar dos veces enter para volver al menú principal, no afecta en nada la funcionamiento general del programa, pero igual puede ser un poco molesto.
+
 ## Ejemplo de uso
 
 Al inicio se le mostrará un menú el cual le mostrara todas las opciones disponibles, para elegir una simplemente debe presionar el número deseado, y seguido, presionar la tecla Enter.
 
-### Cargar Pelicula
+### Cargar Peliculas
 
 Opcion seleccionada: 1)Cargar Pelicula
 
-Nombre del archivo csv/: Top1500
+Ingrese el nombre/ruta del archivo CSV: Top1500
 
-Peliculas cargadas correctamente!
+Catalogo cargado correctamente.
 
 Peliculas cargadas: 1500
 
-### Mostrar categorías
+### Buscar por genero
 
-Opcion seleccionada: 3)Mostrar Categorias
+Opcion seleccionada: 2)Buscar por genero
 
-Categorias existentes:
+Ingrese genero: Drama
 
--Casa
+ID: tt0068646 | Titulo: The Godfather | Director: Francis Ford Coppola | Genero: Crime,Drama | Anio: 1972 | Rating: 9.2
 
-### Registrar Pendiente
+----------------------
 
-Opcion seleccionada: 4)Registrar Pendiente
+...(se imprimen las demas peliculas)
 
-Categoria: Casa
+### Buscar por director
 
-Descripcion: Lavar auto
+Opcion seleccionada: 3)Buscar por director
 
-Tarea registrada exitosamente
+Ingrese director: Michael Curtiz
 
-### Filtrado por categoría
+ID: tt0034583 | Titulo: Casablanca | Director: Michael Curtiz | Genero: Drama,Romance,War | Anio: 1942 | Rating: 8.5
 
-Opcion seleccionada: 7)Filtrar por categoria
+----------------------
 
-Categoria deseada: Casa
+...(se imprimen las demas peliculas)
 
--Lavar auto (12:09:32)
+### Buscar por decada
 
-### Visualizar tablero general
+Opcion seleccionada: 4)Buscar por decada
 
-Opcion seleccionada: 6)Visualizacion del tablero general
+Ingrese anio: 1990
 
--[Casa] Lavar auto (12:09:32)
+ID: tt0110912 | Titulo: Pulp Fiction | Director: Quentin Tarantino | Genero: Crime,Drama | Anio: 1994 | Rating: 8.9
 
-### Atender Siguiente
+----------------------
 
-Opcion seleccionada: 5)Atender Siguiente
+...(se imprimen las demas peliculas)
 
-Lavar Auto | Casa | 12:09:32
+### Busqueda avanzada(genero y decada)
 
-### Eliminar categoría
+Opcion seleccionada: 5)Busqueda avanzada(genero y decada)
+
+Genero: Western
+
+Anio: 1960
+
+ID: tt0064116 | Titulo: C'era una volta il West | Director: Sergio Leone | Genero: Western | Anio: 1968 | Rating: 8.5
+
+----------------------
+
+...(se imprimen las demas peliculas)
+
+### Gestionar mi Watchlist
+
+Opcion seleccionada: 5)Gestionar mi Watchlist
+
+===========================
+
+  Gestion de mi Watchlist
+
+===========================
+
+(1) Agregar Pelicula
+
+(2) Eliminar Pelicula
+
+(3) Mostrar Watchlist
+
+(4) Salir
+
+Ingrese su opcion: 
+
+### (dentro de gestionar mi watchlist) Agregar Pelicula
+
+Opcion seleccionada: 2)Eliminar Categoria 
+
+Categoria a eliminar: Casa
+
+### (dentro de gestionar mi watchlist) Eliminar Pelicula
+
+Opcion seleccionada: 2)Eliminar Categoria 
+
+Categoria a eliminar: Casa
+
+### (dentro de gestionar mi watchlist) Mostrar Watchlist
 
 Opcion seleccionada: 2)Eliminar Categoria 
 
